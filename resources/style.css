@@ -1,0 +1,41 @@
+/* Universal Styles */
+body{
+font-family: Helvetica;
+font-size: 22px;
+margin: 0;
+}
+
+/* Header */
+header{
+background-color: black;
+display: flex;
+height: 69px;
+position: fixed;
+width: 100%;
+top: 0;
+overflow: scroll;
+z-index: 1;
+border-bottom: 1px solid seashell;
+
+}
+header img{
+height: 50px;
+margin-left: 10px;
+margin-top: 9px;
+}
+
+header a{
+text-decoration: underline;
+color: white;
+margin-left: 8px;
+}
+
+.header-links{
+display: inline;
+padding: 20px;
+margin-top: 9px;
+}
+
+.header-image{
+flex-grow: 1;
+}
