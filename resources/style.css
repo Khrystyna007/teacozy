@@ -53,10 +53,66 @@ flex-grow: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 .mission-runner{
   background-color: black;
   width: 1200px;
   color: seashell;
+  text-align: center;
+}
+/* Tea of the Month Selection */
+.tea{
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+  padding: 10px;
+}
+.tea-selection{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  border: 1px solid blue;
+}
+.selection-text{
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+.blitz-tea, .rum-tea, .donut-tea, .myrtle-tea, .bedford-tea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Locations */
+.location-container{
+  border: 2px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 500px;
+ flex-direction: row;
+}
+
+.location1{
+  flex-basis: 280px;
+  border: 1px solid blue;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 5px 20px;
+}
+
+.location-text{
+border: 1px solid green;
+}
+.location-wrap{
+border: 1px solid red;
+
 
 }
