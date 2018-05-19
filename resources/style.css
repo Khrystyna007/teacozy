@@ -93,15 +93,11 @@ flex-grow: 1;
 }
 /* Locations */
 
-
-
 .location-container{
-  border: 2px solid orange;
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
-  height: 500px;
   flex-direction: row;
 }
 
@@ -117,18 +113,13 @@ flex-grow: 1;
   background-repeat: no-repeat;
   width: 1200px;
   margin: 0 auto;
-  border: 2px solid red;
-
+  height: 500px;
+  margin-top: 50px;
 }
 .location-text{
-border: 2px solid green;
 text-align: center;
+padding-top: 50px;
 }
-
-
-
-
-
 
 /* Footer */
 footer{
