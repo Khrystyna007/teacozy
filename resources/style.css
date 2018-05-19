@@ -80,7 +80,6 @@ flex-grow: 1;
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-  border: 1px solid blue;
 }
 .selection-text{
   width: 1000px;
@@ -93,6 +92,9 @@ flex-grow: 1;
   align-items: center;
 }
 /* Locations */
+
+
+
 .location-container{
   border: 2px solid orange;
   display: flex;
@@ -101,25 +103,31 @@ flex-grow: 1;
   align-content: center;
   height: 500px;
   flex-direction: row;
-  background-image: url("./img-locations-background.jpg");
-  background-repeat: no-repeat;
-  width: 1200px;
-  margin: 0 auto;
-
 }
 
 .location1{
   flex-basis: 280px;
-  border: 1px solid blue;
   text-align: center;
   padding-bottom: 30px;
   margin: 5px 20px;
+  background-color: black;
+}
+.main-location{
+  background-image: url("./img-locations-background.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  margin: 0 auto;
+  border: 2px solid red;
 
 }
-
 .location-text{
-border: 1px solid green;
+border: 2px solid green;
+text-align: center;
 }
+
+
+
+
 
 
 /* Footer */
